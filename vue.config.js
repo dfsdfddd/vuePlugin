@@ -42,6 +42,9 @@ module.exports = {
       .set("@examples", path.resolve("examples"))
       .set("@packages", path.resolve("packages"));
   },
+  css: {
+    extract: false,
+  },
 
   // css: {
   //   loaderOptions: {

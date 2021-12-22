@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 
-import "lw-chajian/lib/TestCom.css";
+// import "lw-chajian/lib/TestCom.css";
 
 // import packages, { TestCom } from "../packages";
 import packages, { TestCom } from "lw-chajian";

@@ -24,3 +24,10 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 [参考文档](https://zhuanlan.zhihu.com/p/349285303)
+
+### 如果css要生成单独的文件 vue.config.js
+```javascript
+css: {
+  extract:true
+}
+```

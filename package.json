@@ -1,6 +1,6 @@
 {
-  "name": "lw-chajian2",
-  "version": "0.1.2",
+  "name": "lw-chajian",
+  "version": "0.1.4",
   "private": false,
   "description": "npm 包测试",
   "main": "lib/TestCom.umd.min.js",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "lw-chajian": "^0.1.2",
+    "lw-chajian": "^0.1.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
