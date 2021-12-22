@@ -3,13 +3,15 @@ import App from "./App.vue";
 
 // import "lw-chajian/lib/TestCom.css";
 
-// import packages, { TestCom } from "../packages";
-import packages, { TestCom } from "lw-chajian";
+import packages, { TestCom, Loading } from "../packages";
+// import packages, { TestCom } from "lw-chajian";
 
 console.log(TestCom);
+console.log(Loading);
 console.log(packages);
-// Vue.use(packages);
-Vue.use(TestCom);
+Vue.use(packages);
+// Vue.use(TestCom);
+// Vue.use(Loading);
 
 Vue.config.productionTip = false;
 
