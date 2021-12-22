@@ -4654,6 +4654,14 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+lw-chajian@^0.1.1, lw-chajian@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/lw-chajian/-/lw-chajian-0.1.2.tgz#53802b87073e21658d227558b3c838c0fa408d13"
+  dependencies:
+    core-js "^3.6.5"
+    lw-chajian "^0.1.1"
+    vue "^2.6.11"
+
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/make-dir/download/make-dir-2.1.0.tgz#5f0310e18b8be898cc07009295a30ae41e91e6f5"

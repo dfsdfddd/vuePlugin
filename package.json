@@ -1,14 +1,19 @@
 {
-  "name": "chajian",
-  "version": "0.1.0",
-  "private": true,
+  "name": "lw-chajian2",
+  "version": "0.1.2",
+  "private": false,
+  "description": "npm 包测试",
+  "main": "lib/TestCom.umd.min.js",
+  "keyword": "TestCom",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name TestCom --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "lw-chajian": "^0.1.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
